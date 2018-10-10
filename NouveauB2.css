@@ -1,0 +1,93 @@
+body{
+ color: black;
+ font-family: 'Spectral', serif;
+ background-color: rgba(118, 111, 100, 0.5);
+ font-size: 15px;
+}
+
+img {
+ height: 280px;
+ weight: 280px;
+ border-radius: 5px;
+}
+
+h1 {
+ font-family: 'Roboto', sans-serif;
+ font-weight: 900;
+ font-size: 30px;
+ text-decoration: underline;
+
+}
+h2 {
+ font-family: 'Roboto', sans-serif;
+ font-weight: 400;
+}
+a {
+ color: rgb(230,230,230);
+ text-decoration: none;
+ background-color: rgba(118, 111, 100, 0.5);
+ padding: 5px 10px;
+ border-radius: 3px;
+}
+a:hover {
+ color: black;
+}
+
+.card-white {
+ width: 700px;
+ margin: 2px auto;
+ background-color: rgb(230,230,230);
+ padding-top: 15px;
+ padding-bottom: 15px;
+ padding-right: 30px;
+ padding-left: 30px;
+ border-radius: 5px;
+ box-shadow: 1px 1px 1px rgba(0,0,0,0.2)
+}
+.text-center {
+ text-align: center;
+}
+
+div {
+ display: block;
+}
+
+#image-profil {
+ border-radius: 50%;
+}
+
+ul {
+   display: block;
+   list-style-type: none;
+   margin-block-start: 1em;
+   margin-block-end: 1em;
+   margin-inline-start: 0px;
+   margin-inline-end: 0px;
+   padding-inline-start: 40px;
+}
+
+.list-inline {
+   display: block;
+   display: inline-flex;
+   margin-block-start: 3em;
+}
+
+.text-align {
+ display: flex;
+ margin-block-start: 3em;
+ margin-block-end: 3em;
+ margin-inline-start: 0px;
+ margin-inline-end: 0px;
+ padding-inline-start: 40px;
+}
+
+.commentaire {
+ align-items: center;
+ margin-block-start: 3em;
+}
+
+.icon li {
+ display: inline-block;
+ text-decoration: underline, none;
+ padding: 2em;
+}
